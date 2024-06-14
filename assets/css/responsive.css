@@ -1,0 +1,201 @@
+@media (max-width:959px) {
+    #bot_header {
+        height: auto;
+        padding: 0;
+        bottom: auto;
+        top: 0;
+    }
+    #bot_header:before {
+        left: 0;
+        right: 0;
+        top: auto;
+        bottom: -6px;
+        background-image: url(/assets/img/el_bg_shadow_2.png);
+    }
+    #bot_header h1{
+        height: 63px;
+        padding-left: 30px;
+        float: none;
+    }
+    #bot_header h1 > span,
+    #bot_header h1 > span > span{
+        display: inline-block;
+    }
+    #bot_header h1 a{
+        display: inline-block;
+    }
+    #bot_header > div {
+        height: auto;
+        display: block;
+        position: relative;
+        background-color: inherit;
+        display: none;
+    }
+    #bot_header #header_img{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: auto;
+        margin: 0;
+    }
+    #bot_header #header_img img{
+        width: 290px;
+        height: auto;
+    }
+    #bot_header nav{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        text-align: center;
+        float: none;
+    }
+    #bot_header nav ul{
+        padding-top: 20px;
+        display: block;
+    }
+    #bot_header nav ul li{
+        margin: 0 0 15px;
+        padding-right: 0;
+        text-align: center;
+        display: block;
+    }
+    #bot_header nav a{
+        font-size: 17px;
+    }
+    #bot_header #sns_wrapper{
+        margin-top: 40px;
+        padding: 20px 0;
+        position: relative;
+        top: 0;
+        right: 0;
+        border-top: 1px solid white;
+    }
+    #bot_header .sns{
+        text-align: center;
+    }
+    #bot_header .sns li{
+        float: none;
+        margin: 0 8px;
+        display: inline-block;
+    }
+    #bot_header .sns li img{
+        height: 21px;
+    }
+    #bot_header #menu_btn{
+        width: 30px;
+        height: 29px;
+        position: absolute;
+        top: 18px;
+        right: 15px;
+        display: block;
+        z-index: 10;
+    }
+    #bot_header #menu_btn > span{
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        display: block;
+        position: absolute;
+        transition: all 0.2s ease;
+    }
+    #bot_header #menu_btn ._1{
+        top: 3px;
+    }
+    #bot_header #menu_btn ._2{
+        top: 12px;
+    }
+    #bot_header #menu_btn ._3{
+        top: 21px;
+    }
+    #bot_header #menu_btn ._1,._2,._3:hover{
+        cursor: pointer;
+    }
+    #bot_header #menu_btn.show ._1{
+        transform: rotate(45deg);
+        top: 10px;
+    }
+    #bot_header #menu_btn.show ._2{
+        transform: rotate(-45deg);
+        top: 10px;
+    }
+    #bot_header #menu_btn.show ._3{
+        opacity: 0;
+    }
+}
+@media (max-width:760px) {
+    #footer{
+        padding-bottom: 70px;
+    }
+    section > header{
+        padding-top: 110px;
+    }
+    section > header > h2 > span{
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width:760px) {
+    #video_content{
+        width: 320px;
+        height: 180px;
+        bottom: 0;
+    }
+    #player{
+        background: rgba(0,0,0,0.9);
+    }
+
+    #player:before{
+        width: 25px;
+        height: 25px;
+        top: 75px;
+    }
+}
+@media (max-width:959px) {
+    #wrapper.top #bot_header{
+        margin-bottom: 70px;
+    }
+    #content header{
+        height: 318px;
+        padding: 100px 0 50px;
+    }
+    #content #header_img{
+        width: 290px;
+        height: 238px;
+        position: relative;
+        right: 0;
+        margin: 0 auto;
+    }
+    #content header > h1{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #content header > h1 img{
+        width: 190px;
+        height: auto;
+    }
+}
+@media (max-width:760px) {
+    #video p{
+        width: 100%;
+        height: 196px;
+    }
+    #video p + p{
+        margin: 20px 0 0;
+    }
+    #news h3{
+        font-size: 12px;
+        color: white;
+        letter-spacing: 0.1em;
+        margin-bottom: 20px;
+        display: block;
+    }
+    #news a{
+        padding: 4px 15px;
+        font-size: 14px;
+    }
+    #news a time{
+        display: none;
+    }
+}
